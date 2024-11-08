@@ -60,8 +60,8 @@
                         <Insets bottom="30.0" top="30.0" />
                     </padding>
                 </VBox>
-                <Button mnemonicParsing="false" text="Сохранить" GridPane.rowIndex="4" />
-                <Button mnemonicParsing="false" text="Отмена" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                <Button mnemonicParsing="false" text="Сохранить" onAction="#onSaveClick" GridPane.rowIndex="4" />
+                <Button mnemonicParsing="false" text="Отмена" onAction="#onCancelClick" GridPane.columnIndex="1" GridPane.rowIndex="4" />
             </children>
         </GridPane>
     </children>

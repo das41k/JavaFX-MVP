@@ -3,9 +3,9 @@ package org.example.demo2.Models;
 import java.util.ArrayList;
 
 public class Cookie extends  Food {
-    private Boolean withSugar;
-    private Boolean withPoppy;
-    private Boolean withSesame;
+    public Boolean withSugar;
+    public Boolean withPoppy;
+    public Boolean withSesame;
 
     public Cookie(int kkal, String title, Boolean withSugar, Boolean withPoppy, Boolean withSesame) {
         super(kkal, title);

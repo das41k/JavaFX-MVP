@@ -77,5 +77,12 @@ public class HelloController implements Initializable {
         stage.initModality(Modality.WINDOW_MODAL);
         stage.initOwner(this.mainTable.getScene().getWindow());
         stage.showAndWait();
+
+        FoodFormController controller = loader.getController();
+
+        if (controller.getModalResult()) {
+            Food newFood = controller.getFood();
+            this.foodList.add(newFood);
+        }
     }
 }
