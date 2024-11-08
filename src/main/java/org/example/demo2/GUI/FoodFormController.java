@@ -65,7 +65,7 @@ public class FoodFormController implements Initializable {
                 return null;
             }
         });
-        updatePanes("");
+        updatePanes(" ");
     }
     public void updatePanes(String newValue) {
         this.fruitPane.setVisible(newValue.equals(FOOD_FRUIT));
